@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos do Curso - IMPLS</title>
+    <link rel="shortcut icon" href="../img/Logo IMPLS.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="Clips-energ-1.css">
+</head>
+<body>
+    
+  <header>
+        <div class="logo">
+            <a href="../inicio.html"><img src="../img/Logo-IMPLS.png" alt="IMPLS"></a>
+            <a href="../inicio.html"><span class="logo-text">IMPLS</span></a>
+        </div>
+      <ul>
+        <li><a href="../inicio.html">Início</a></li>
+        <li><a href="../cursos.html">Cursos</a></li>
+        <li><a href="../disciplinas.html">Disciplinas</a></li>
+        <li><a href="../sonia.html">Sonia</a></li>
+        <li><a href="../sobre.html">Sobre</a></li>
+        <li><a href="../perfil.html">Perfil</a></li>
+      </ul>
+    </header>
+
+    <div class="video-page">
+        <div class="video-container">
+            <!-- Área Principal do Vídeo -->
+            <div class="main-video">
+                <div class="video-player">
+                    <iframe id="mainVideo" 
+                            width="100%" 
+                            height="500" 
+                            src="https://www.youtube.com/embed/kLUt4ZAJuPk" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen>
+                    </iframe>
+                </div>
+                <div class="video-info">
+                    <h1 class="video-title">Aula 1</h1>
+                    <p class="video-description">Conteúdo Aula 1</p>
+                </div>
+            </div>
+
+            <!-- Playlist Atualizada -->
+            <div class="playlist">
+                <h2 class="playlist-header">Playlist</h2>
+
+                <!-- Novos Itens da Playlist -->
+                <div class="playlist-item active" data-video-id="kLUt4ZAJuPk" data-title="Aula 1" data-description="Conteúdo Aula 1" onclick="playVideo(this)">
+                    <img src="https://img.youtube.com/vi/kLUt4ZAJuPk/0.jpg" class="playlist-thumbnail" alt="Aula 1">
+                    <div class="playlist-info">
+                        <h3 class="playlist-title">Aula 1</h3>
+                        <span class="playlist-duration">--:--</span>
+                        <span class="playlist-caption">Legendas disponíveis</span>
+                    </div>
+                </div>
+
+                <div class="playlist-item" data-video-id="gDonHpDRNYI" data-title="Aula 2" data-description="Conteúdo Aula 2" onclick="playVideo(this)">
+                    <img src="https://img.youtube.com/vi/gDonHpDRNYI/0.jpg" class="playlist-thumbnail" alt="Aula 2">
+                    <div class="playlist-info">
+                        <h3 class="playlist-title">Aula 2</h3>
+                        <span class="playlist-duration">--:--</span>
+                        <span class="playlist-caption">Legendas disponíveis</span>
+                    </div>
+                </div>
+
+                <div class="playlist-item" data-video-id="kL56cQv2ZEA" data-title="Aula 3" data-description="Conteúdo Aula 3" onclick="playVideo(this)">
+                    <img src="https://img.youtube.com/vi/kL56cQv2ZEA/0.jpg" class="playlist-thumbnail" alt="Aula 3">
+                    <div class="playlist-info">
+                        <h3 class="playlist-title">Aula 3</h3>
+                        <span class="playlist-duration">--:--</span>
+                        <span class="playlist-caption">Legendas disponíveis</span>
+                    </div>
+                </div>
+
+                <!-- Continuação dos demais vídeos -->
+                <div class="playlist-item" data-video-id="KIIes397NMU" data-title="Aula 4" data-description="Conteúdo Aula 4" onclick="playVideo(this)">
+                    <img src="https://img.youtube.com/vi/KIIes397NMU/0.jpg" class="playlist-thumbnail" alt="Aula 4">
+                    <div class="playlist-info">
+                        <h3 class="playlist-title">Aula 4</h3>
+                        <span class="playlist-duration">--:--</span>
+                        <span class="playlist-caption">Legendas disponíveis</span>
+                    </div>
+                </div>
+
+                <div class="playlist-item" data-video-id="DAz2wxMwYwI" data-title="Aula 5" data-description="Conteúdo Aula 5" onclick="playVideo(this)">
+                    <img src="https://img.youtube.com/vi/DAz2wxMwYwI/0.jpg" class="playlist-thumbnail" alt="Aula 5">
+                    <div class="playlist-info">
+                        <h3 class="playlist-title">Aula 5</h3>
+                        <span class="playlist-duration">--:--</span>
+                        <span class="playlist-caption">Legendas disponíveis</span>
+                    </div>
+                </div>
+
+                <div class="playlist-item" data-video-id="gTBCy0AFg00" data-title="Aula 6" data-description="Conteúdo Aula 6" onclick="playVideo(this)">
+                    <img src="https://img.youtube.com/vi/gTBCy0AFg00/0.jpg" class="playlist-thumbnail" alt="Aula 6">
+                    <div class="playlist-info">
+                        <h3 class="playlist-title">Aula 6</h3>
+                        <span class="playlist-duration">--:--</span>
+                        <span class="playlist-caption">Legendas disponíveis</span>
+                    </div>
+                </div>
+
+                <div class="playlist-item" data-video-id="WucYqbOpvic" data-title="Aula 7" data-description="Conteúdo Aula 7" onclick="playVideo(this)">
+                    <img src="https://img.youtube.com/vi/WucYqbOpvic/0.jpg" class="playlist-thumbnail" alt="Aula 7">
+                    <div class="playlist-info">
+                        <h3 class="playlist-title">Aula 7</h3>
+                        <span class="playlist-duration">--:--</span>
+                        <span class="playlist-caption">Legendas disponíveis</span>
+                    </div>
+                </div>
+
+                <div class="playlist-item" data-video-id="eHVUEzrPFbY" data-title="Aula 8" data-description="Conteúdo Aula 8" onclick="playVideo(this)">
+                    <img src="https://img.youtube.com/vi/eHVUEzrPFbY/0.jpg" class="playlist-thumbnail" alt="Aula 8">
+                    <div class="playlist-info">
+                        <h3 class="playlist-title">Aula 8</h3>
+                        <span class="playlist-duration">--:--</span>
+                        <span class="playlist-caption">Legendas disponíveis</span>
+                    </div>
+                </div>
+
+                <div class="playlist-item" data-video-id="vRk_yCaCK9U" data-title="Aula 9" data-description="Conteúdo Aula 9" onclick="playVideo(this)">
+                    <img src="https://img.youtube.com/vi/vRk_yCaCK9U/0.jpg" class="playlist-thumbnail" alt="Aula 9">
+                    <div class="playlist-info">
+                        <h3 class="playlist-title">Aula 9</h3>
+                        <span class="playlist-duration">--:--</span>
+                        <span class="playlist-caption">Legendas disponíveis</span>
+                    </div>
+                </div>
+
+                <div class="playlist-item" data-video-id="enksift3Cpg" data-title="Aula 10" data-description="Conteúdo Aula 10" onclick="playVideo(this)">
+                    <img src="https://img.youtube.com/vi/enksift3Cpg/0.jpg" class="playlist-thumbnail" alt="Aula 10">
+                    <div class="playlist-info">
+                        <h3 class="playlist-title">Aula 10</h3>
+                        <span class="playlist-duration">--:--</span>
+                        <span class="playlist-caption">Legendas disponíveis</span>
+                    </div>
+                </div>
+
+                <div class="playlist-item" data-video-id="Od02XVm319M" data-title="Aula 11" data-description="Conteúdo Aula 11" onclick="playVideo(this)">
+                    <img src="https://img.youtube.com/vi/Od02XVm319M/0.jpg" class="playlist-thumbnail" alt="Aula 11">
+                    <div class="playlist-info">
+                        <h3 class="playlist-title">Aula 11</h3>
+                        <span class="playlist-duration">--:--</span>
+                        <span class="playlist-caption">Legendas disponíveis</span>
+                    </div>
+                </div>
+
+                <div class="playlist-item" data-video-id="IQyN_UBxrr9lJdAi" data-title="Aula 12" data-description="Conteúdo Aula 12" onclick="playVideo(this)">
+                    <img src="https://img.youtube.com/vi/IQyN_UBxrr9lJdAi/0.jpg" class="playlist-thumbnail" alt="Aula 12">
+                    <div class="playlist-info">
+                        <h3 class="playlist-title">Aula 12</h3>
+                        <span class="playlist-duration">--:--</span>
+                        <span class="playlist-caption">Legendas disponíveis</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+<script src="Clips-energ-1.js"></script>
+
+</body>
+</html>

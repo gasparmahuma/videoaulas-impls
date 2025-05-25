@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos do Curso - IMPLS</title>
+    <link rel="shortcut icon" href="../img/Logo IMPLS.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="Clips-ala-1.css">
+</head>
+<body>
+    
+    <header>
+        <div class="logo">
+            <a href="../inicio.html"><img src="../img/Logo-IMPLS.png" alt="IMPLS"></a>
+            <a href="../inicio.html"><span class="logo-text">IMPLS</span></a>
+        </div>
+      <ul>
+        <li><a href="../inicio.html">Início</a></li>
+        <li><a href="../cursos.html">Cursos</a></li>
+        <li><a href="../disciplinas.html">Disciplinas</a></li>
+        <li><a href="../sonia.html">Sonia</a></li>
+        <li><a href="../sobre.html">Sobre</a></li>
+        <li><a href="../perfil.html">Perfil</a></li>
+      </ul>
+    </header>
+
+    <div class="video-page">
+        <div class="video-container">
+            <!-- Área Principal do Vídeo -->
+            <div class="main-video">
+                <div class="video-player">
+                    <iframe id="mainVideo" 
+                            width="100%" 
+                            height="500" 
+                            src="https://www.youtube.com/embed/JQ5TqjLpzXI" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen>
+                    </iframe>
+                </div>
+                <div class="video-info">
+                    <h1 class="video-title">Aula 1: Conceitos Iniciais em Desenho Técnico</h1>
+                    <p class="video-description">Conteúdo de Conceitos Iniciais em Desenho Técnico</p>
+                </div>
+            </div>
+
+            <!-- Playlist Lateral -->
+            <div class="playlist">
+                <h2 class="playlist-header">Playlist: Desenho Técnico</h2>
+
+                <!-- Lista de Vídeos -->
+                <div class="playlist-item active"
+                     data-video-id="JQ5TqjLpzXI"
+                     data-title="Aula 1: Conceitos Iniciais em Desenho Técnico"
+                     data-description="Conteúdo de Conceitos Iniciais em Desenho Técnico"
+                     onclick="playVideo(this)">
+                    <img src="https://img.youtube.com/vi/JQ5TqjLpzXI/0.jpg"
+                         class="playlist-thumbnail"
+                         alt="Thumbnail Aula 1">
+                    <div class="playlist-info">
+                        <h3 class="playlist-title">Aula 1: Conceitos Iniciais em Desenho Técnico</h3>
+                        <span class="playlist-duration">--:--</span>
+                    </div>
+                </div>
+
+                <div class="playlist-item"
+                     data-video-id="ljOsULR_CHM"
+                     data-title="Aula 2: Desenho Técnico - Parte 2"
+                     data-description="Conteúdo de Desenho Técnico - Parte 2"
+                     onclick="playVideo(this)">
+                    <img src="https://img.youtube.com/vi/ljOsULR_CHM/0.jpg"
+                         class="playlist-thumbnail"
+                         alt="Thumbnail Aula 2">
+                    <div class="playlist-info">
+                        <h3 class="playlist-title">Aula 2: Desenho Técnico - Parte 2</h3>
+                        <span class="playlist-duration">--:--</span>
+                    </div>
+                </div>
+
+                <div class="playlist-item"
+                     data-video-id="IbVYGN61Kls"
+                     data-title="Aula 3: Desenho Técnico - Parte 3"
+                     data-description="Conteúdo de Desenho Técnico - Parte 3"
+                     onclick="playVideo(this)">
+                    <img src="https://img.youtube.com/vi/IbVYGN61Kls/0.jpg"
+                         class="playlist-thumbnail"
+                         alt="Thumbnail Aula 3">
+                    <div class="playlist-info">
+                        <h3 class="playlist-title">Aula 3: Desenho Técnico - Parte 3</h3>
+                        <span class="playlist-duration">--:--</span>
+                    </div>
+                </div>
+
+                <div class="playlist-item"
+                     data-video-id="cXuhWPw4slU"
+                     data-title="Aula 4: Desenho Técnico - Parte 4"
+                     data-description="Conteúdo de Desenho Técnico - Parte 4"
+                     onclick="playVideo(this)">
+                    <img src="https://img.youtube.com/vi/cXuhWPw4slU/0.jpg"
+                         class="playlist-thumbnail"
+                         alt="Thumbnail Aula 4">
+                    <div class="playlist-info">
+                        <h3 class="playlist-title">Aula 4: Desenho Técnico - Parte 4</h3>
+                        <span class="playlist-duration">--:--</span>
+                    </div>
+                </div>
+
+                <div class="playlist-item"
+                     data-video-id="C42Lk9o-paE"
+                     data-title="Aula 5: Desenho Técnico - Parte 5"
+                     data-description="Conteúdo de Desenho Técnico - Parte 5"
+                     onclick="playVideo(this)">
+                    <img src="https://img.youtube.com/vi/C42Lk9o-paE/0.jpg"
+                         class="playlist-thumbnail"
+                         alt="Thumbnail Aula 5">
+                    <div class="playlist-info">
+                        <h3 class="playlist-title">Aula 5: Desenho Técnico - Parte 5</h3>
+                        <span class="playlist-duration">--:--</span>
+                    </div>
+                </div>
+
+                <div class="playlist-item"
+                     data-video-id="DoEERYn0EIU"
+                     data-title="Aula 6: Desenho Técnico - Parte 6"
+                     data-description="Conteúdo de Desenho Técnico - Parte 6"
+                     onclick="playVideo(this)">
+                    <img src="https://img.youtube.com/vi/DoEERYn0EIU/0.jpg"
+                         class="playlist-thumbnail"
+                         alt="Thumbnail Aula 6">
+                    <div class="playlist-info">
+                        <h3 class="playlist-title">Aula 6: Desenho Técnico - Parte 6</h3>
+                        <span class="playlist-duration">--:--</span>
+                    </div>
+                </div>
+
+                <div class="playlist-item"
+                     data-video-id="2A2dmS5wTJo"
+                     data-title="Aula 7: Desenho Técnico - Parte 7"
+                     data-description="Conteúdo de Desenho Técnico - Parte 7"
+                     onclick="playVideo(this)">
+                    <img src="https://img.youtube.com/vi/2A2dmS5wTJo/0.jpg"
+                         class="playlist-thumbnail"
+                         alt="Thumbnail Aula 7">
+                    <div class="playlist-info">
+                        <h3 class="playlist-title">Aula 7: Desenho Técnico - Parte 7</h3>
+                        <span class="playlist-duration">--:--</span>
+                    </div>
+                </div>
+
+                <div class="playlist-item"
+                     data-video-id="sAirSGGRvs4"
+                     data-title="Aula 8: Desenho Técnico - Parte 8"
+                     data-description="Conteúdo de Desenho Técnico - Parte 8"
+                     onclick="playVideo(this)">
+                    <img src="https://img.youtube.com/vi/sAirSGGRvs4/0.jpg"
+                         class="playlist-thumbnail"
+                         alt="Thumbnail Aula 8">
+                    <div class="playlist-info">
+                        <h3 class="playlist-title">Aula 8: Desenho Técnico - Parte 8</h3>
+                        <span class="playlist-duration">--:--</span>
+                    </div>
+                </div>
+
+                <div class="playlist-item"
+                     data-video-id="XJ2ZyI0MIb4"
+                     data-title="Aula 9: Desenho Técnico - Parte 9"
+                     data-description="Conteúdo de Desenho Técnico - Parte 9"
+                     onclick="playVideo(this)">
+                    <img src="https://img.youtube.com/vi/XJ2ZyI0MIb4/0.jpg"
+                         class="playlist-thumbnail"
+                         alt="Thumbnail Aula 9">
+                    <div class="playlist-info">
+                        <h3 class="playlist-title">Aula 9: Desenho Técnico - Parte 9</h3>
+                        <span class="playlist-duration">--:--</span>
+                    </div>
+                </div>
+
+                <div class="playlist-item"
+                     data-video-id="lmpd1r3lmB4"
+                     data-title="Aula 10: Desenho Técnico - Parte 10"
+                     data-description="Conteúdo de Desenho Técnico - Parte 10"
+                     onclick="playVideo(this)">
+                    <img src="https://img.youtube.com/vi/lmpd1r3lmB4/0.jpg"
+                         class="playlist-thumbnail"
+                         alt="Thumbnail Aula 10">
+                    <div class="playlist-info">
+                        <h3 class="playlist-title">Aula 10: Desenho Técnico - Parte 10</h3>
+                        <span class="playlist-duration">--:--</span>
+                    </div>
+                </div>
+
+                <div class="playlist-item"
+                     data-video-id="rtPRlEWltn8"
+                     data-title="Aula 11: Desenho Técnico - Parte 11"
+                     data-description="Conteúdo de Desenho Técnico - Parte 11"
+                     onclick="playVideo(this)">
+                    <img src="https://img.youtube.com/vi/rtPRlEWltn8/0.jpg"
+                         class="playlist-thumbnail"
+                         alt="Thumbnail Aula 11">
+                    <div class="playlist-info">
+                        <h3 class="playlist-title">Aula 11: Desenho Técnico - Parte 11</h3>
+                        <span class="playlist-duration">--:--</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+<script src="Clips-ala-1.js"></script>
+
+</body>
+</html>

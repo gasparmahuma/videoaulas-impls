@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos do Curso - IMPLS</title>
+    <link rel="shortcut icon" href="../img/Logo IMPLS.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="Clips-info-3.css">
+</head>
+<body>
+    
+    <header>
+        <div class="logo">
+            <a href="../inicio.html"><img src="../img/Logo-IMPLS.png" alt="IMPLS"></a>
+            <a href="../inicio.html"><span class="logo-text">IMPLS</span></a>
+        </div>
+      <ul>
+        <li><a href="../inicio.html">Início</a></li>
+        <li><a href="../cursos.html">Cursos</a></li>
+        <li><a href="../disciplinas.html">Disciplinas</a></li>
+        <li><a href="../sonia.html">Sonia</a></li>
+        <li><a href="../sobre.html">Sobre</a></li>
+        <li><a href="../perfil.html">Perfil</a></li>
+      </ul>
+    </header>
+
+    <div class="video-page">
+        <div class="video-container">
+            <!-- Área Principal do Vídeo -->
+            <div class="main-video">
+                <div class="video-player">
+                    <iframe id="mainVideo" 
+                            width="100%" 
+                            height="500" 
+                            src="https://www.youtube.com/embed/L0k2PeUZzY8" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen>
+                    </iframe>
+                </div>
+                <div class="video-info">
+                    <h1 class="video-title">Aula 1: Manutenção de Computadores - Ferramentas e Componentes</h1>
+                    <p class="video-description">Introdução à manutenção de computadores: ferramentas necessárias e principais componentes</p>
+                </div>
+            </div>
+
+            <!-- Playlist Lateral -->
+            <div class="playlist">
+                <h2 class="playlist-header">Playlist: Manutenção de Computadores</h2>
+
+                <!-- Lista de Vídeos Manutenção de Computadores -->
+                <div class="playlist-item active"
+                     data-video-id="L0k2PeUZzY8"
+                     data-title="Aula 1: Manutenção de Computadores - Ferramentas e Componentes"
+                     data-description="Introdução à manutenção de computadores: ferramentas necessárias e principais componentes"
+                     onclick="playVideo(this)">
+                    <img src="https://img.youtube.com/vi/L0k2PeUZzY8/0.jpg"
+                         class="playlist-thumbnail"
+                         alt="Thumbnail Aula 1">
+                    <div class="playlist-info">
+                        <h3 class="playlist-title">Aula 1: Introdução e Ferramentas</h3>
+                        <span class="playlist-duration">--:--</span>
+                    </div>
+                </div>
+
+                <div class="playlist-item"
+                     data-video-id="d6W9HuMvnf4"
+                     data-title="Aula 2: Componentes Básicos do Computador"
+                     data-description="Conhecendo os componentes básicos de um computador e suas funções"
+                     onclick="playVideo(this)">
+                    <img src="https://img.youtube.com/vi/d6W9HuMvnf4/0.jpg"
+                         class="playlist-thumbnail"
+                         alt="Thumbnail Aula 2">
+                    <div class="playlist-info">
+                        <h3 class="playlist-title">Aula 2: Componentes Básicos</h3>
+                        <span class="playlist-duration">--:--</span>
+                    </div>
+                </div>
+
+                <div class="playlist-item"
+                     data-video-id="IsnXLq7_y8U"
+                     data-title="Aula 3: Montagem e Desmontagem de Computadores"
+                     data-description="Passo a passo para montar e desmontar um computador com segurança"
+                     onclick="playVideo(this)">
+                    <img src="https://img.youtube.com/vi/IsnXLq7_y8U/0.jpg"
+                         class="playlist-thumbnail"
+                         alt="Thumbnail Aula 3">
+                    <div class="playlist-info">
+                        <h3 class="playlist-title">Aula 3: Montagem/Desmontagem</h3>
+                        <span class="playlist-duration">--:--</span>
+                    </div>
+                </div>
+
+                <div class="playlist-item"
+                     data-video-id="p8Z-kWh53m8"
+                     data-title="Aula 4: Manutenção Preventiva"
+                     data-description="Técnicas de manutenção preventiva para aumentar a vida útil do computador"
+                     onclick="playVideo(this)">
+                    <img src="https://img.youtube.com/vi/p8Z-kWh53m8/0.jpg"
+                         class="playlist-thumbnail"
+                         alt="Thumbnail Aula 4">
+                    <div class="playlist-info">
+                        <h3 class="playlist-title">Aula 4: Manutenção Preventiva</h3>
+                        <span class="playlist-duration">--:--</span>
+                    </div>
+                </div>
+
+                <div class="playlist-item"
+                     data-video-id="XBUPEI5EX-s"
+                     data-title="Aula 5: Solução de Problemas Básicos"
+                     data-description="Diagnóstico e solução dos problemas mais comuns em computadores"
+                     onclick="playVideo(this)">
+                    <img src="https://img.youtube.com/vi/XBUPEI5EX-s/0.jpg"
+                         class="playlist-thumbnail"
+                         alt="Thumbnail Aula 5">
+                    <div class="playlist-info">
+                        <h3 class="playlist-title">Aula 5: Solução de Problemas</h3>
+                        <span class="playlist-duration">--:--</span>
+                    </div>
+                </div>
+
+                <div class="playlist-item"
+                     data-video-id="3qW1x-kOna0"
+                     data-title="Aula 6: Manutenção de Hardware Avançada"
+                     data-description="Técnicas avançadas de manutenção de hardware"
+                     onclick="playVideo(this)">
+                    <img src="https://img.youtube.com/vi/3qW1x-kOna0/0.jpg"
+                         class="playlist-thumbnail"
+                         alt="Thumbnail Aula 6">
+                    <div class="playlist-info">
+                        <h3 class="playlist-title">Aula 6: Hardware Avançado</h3>
+                        <span class="playlist-duration">--:--</span>
+                    </div>
+                </div>
+
+                <div class="playlist-item"
+                     data-video-id="bXCoiajgs4Q"
+                     data-title="Aula 7: Componentes Eletrônicos"
+                     data-description="Entendendo os componentes eletrônicos do computador"
+                     onclick="playVideo(this)">
+                    <img src="https://img.youtube.com/vi/bXCoiajgs4Q/0.jpg"
+                         class="playlist-thumbnail"
+                         alt="Thumbnail Aula 7">
+                    <div class="playlist-info">
+                        <h3 class="playlist-title">Aula 7: Componentes Eletrônicos</h3>
+                        <span class="playlist-duration">--:--</span>
+                    </div>
+                </div>
+
+                <div class="playlist-item"
+                     data-video-id="iBwrCbVrudo"
+                     data-title="Aula 8: Ferramentas Especializadas"
+                     data-description="Uso de ferramentas especializadas em manutenção"
+                     onclick="playVideo(this)">
+                    <img src="https://img.youtube.com/vi/iBwrCbVrudo/0.jpg"
+                         class="playlist-thumbnail"
+                         alt="Thumbnail Aula 8">
+                    <div class="playlist-info">
+                        <h3 class="playlist-title">Aula 8: Ferramentas Especializadas</h3>
+                        <span class="playlist-duration">--:--</span>
+                    </div>
+                </div>
+
+                <div class="playlist-item"
+                     data-video-id="oqk4EOfl4cc"
+                     data-title="Aula 9: Diagnóstico de Falhas"
+                     data-description="Técnicas avançadas para diagnóstico de falhas em hardware"
+                     onclick="playVideo(this)">
+                    <img src="https://img.youtube.com/vi/oqk4EOfl4cc/0.jpg"
+                         class="playlist-thumbnail"
+                         alt="Thumbnail Aula 9">
+                    <div class="playlist-info">
+                        <h3 class="playlist-title">Aula 9: Diagnóstico de Falhas</h3>
+                        <span class="playlist-duration">--:--</span>
+                    </div>
+                </div>
+
+                <div class="playlist-item"
+                     data-video-id="7s59nt3CVR0"
+                     data-title="Aula 10: Manutenção de Fontes de Alimentação"
+                     data-description="Como realizar manutenção em fontes de alimentação"
+                     onclick="playVideo(this)">
+                    <img src="https://img.youtube.com/vi/7s59nt3CVR0/0.jpg"
+                         class="playlist-thumbnail"
+                         alt="Thumbnail Aula 10">
+                    <div class="playlist-info">
+                        <h3 class="playlist-title">Aula 10: Manutenção de Fontes</h3>
+                        <span class="playlist-duration">--:--</span>
+                    </div>
+                </div>
+
+                <div class="playlist-item"
+                     data-video-id="NirKGAhh1UI"
+                     data-title="Aula 11: Placas-mãe e Seus Componentes"
+                     data-description="Análise detalhada de placas-mãe e seus componentes"
+                     onclick="playVideo(this)">
+                    <img src="https://img.youtube.com/vi/NirKGAhh1UI/0.jpg"
+                         class="playlist-thumbnail"
+                         alt="Thumbnail Aula 11">
+                    <div class="playlist-info">
+                        <h3 class="playlist-title">Aula 11: Placas-mãe</h3>
+                        <span class="playlist-duration">--:--</span>
+                    </div>
+                </div>
+
+                <div class="playlist-item"
+                     data-video-id="Wr0xTeW9SqI"
+                     data-title="Aula 12: Conclusão e Boas Práticas"
+                     data-description="Conclusão do curso e boas práticas em manutenção de computadores"
+                     onclick="playVideo(this)">
+                    <img src="https://img.youtube.com/vi/Wr0xTeW9SqI/0.jpg"
+                         class="playlist-thumbnail"
+                         alt="Thumbnail Aula 12">
+                    <div class="playlist-info">
+                        <h3 class="playlist-title">Aula 12: Conclusão</h3>
+                        <span class="playlist-duration">--:--</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+<script src="Clips-info-3.js"></script>
+
+</body>
+</html>

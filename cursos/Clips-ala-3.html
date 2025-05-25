@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos do Curso - IMPLS</title>
+    <link rel="shortcut icon" href="../img/Logo IMPLS.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="Clips-ala-3.css">
+</head>
+<body>
+    
+    <header>
+        <div class="logo">
+            <a href="../inicio.html"><img src="../img/Logo-IMPLS.png" alt="IMPLS"></a>
+            <a href="../inicio.html"><span class="logo-text">IMPLS</span></a>
+        </div>
+      <ul>
+        <li><a href="../inicio.html">Início</a></li>
+        <li><a href="../cursos.html">Cursos</a></li>
+        <li><a href="../disciplinas.html">Disciplinas</a></li>
+        <li><a href="../sonia.html">Sonia</a></li>
+        <li><a href="../sobre.html">Sobre</a></li>
+        <li><a href="../perfil.html">Perfil</a></li>
+      </ul>
+    </header>
+
+    <div class="video-page">
+        <div class="video-container">
+            <!-- Área Principal do Vídeo -->
+            <div class="main-video">
+                <div class="video-player">
+                    <iframe id="mainVideo" 
+                            width="100%" 
+                            height="500" 
+                            src="https://www.youtube.com/embed/6MM5mYMovpc" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen>
+                    </iframe>
+                </div>
+                <div class="video-info">
+                    <h1 class="video-title">Aula 1: Administração Geral - Parte 1</h1>
+                    <p class="video-description">Conteúdo de Administração Geral - Parte 1</p>
+                </div>
+            </div>
+
+            <!-- Playlist Lateral -->
+            <div class="playlist">
+                <h2 class="playlist-header">Playlist: Administração Geral</h2>
+
+                <!-- Lista de Vídeos Administração Geral -->
+                <div class="playlist-item active"
+                     data-video-id="6MM5mYMovpc"
+                     data-title="Aula 1: Administração Geral - Parte 1"
+                     data-description="Conteúdo de Administração Geral - Parte 1"
+                     onclick="playVideo(this)">
+                    <img src="https://img.youtube.com/vi/6MM5mYMovpc/0.jpg"
+                         class="playlist-thumbnail"
+                         alt="Thumbnail Aula 1">
+                    <div class="playlist-info">
+                        <h3 class="playlist-title">Aula 1: Administração Geral - Parte 1</h3>
+                        <span class="playlist-duration">--:--</span>
+                    </div>
+                </div>
+
+                <div class="playlist-item"
+                     data-video-id="iPjotuQC-Oo"
+                     data-title="Aula 2: Administração Geral - Parte 2"
+                     data-description="Conteúdo de Administração Geral - Parte 2"
+                     onclick="playVideo(this)">
+                    <img src="https://img.youtube.com/vi/iPjotuQC-Oo/0.jpg"
+                         class="playlist-thumbnail"
+                         alt="Thumbnail Aula 2">
+                    <div class="playlist-info">
+                        <h3 class="playlist-title">Aula 2: Administração Geral - Parte 2</h3>
+                        <span class="playlist-duration">--:--</span>
+                    </div>
+                </div>
+
+                <div class="playlist-item"
+                     data-video-id="xE7eLpeAsEc"
+                     data-title="Aula 3: Administração Geral - Parte 3"
+                     data-description="Conteúdo de Administração Geral - Parte 3"
+                     onclick="playVideo(this)">
+                    <img src="https://img.youtube.com/vi/xE7eLpeAsEc/0.jpg"
+                         class="playlist-thumbnail"
+                         alt="Thumbnail Aula 3">
+                    <div class="playlist-info">
+                        <h3 class="playlist-title">Aula 3: Administração Geral - Parte 3</h3>
+                        <span class="playlist-duration">--:--</span>
+                    </div>
+                </div>
+
+                <div class="playlist-item"
+                     data-video-id="HMWzYB05Qoo"
+                     data-title="Aula 4: Administração Geral - Parte 4"
+                     data-description="Conteúdo de Administração Geral - Parte 4"
+                     onclick="playVideo(this)">
+                    <img src="https://img.youtube.com/vi/HMWzYB05Qoo/0.jpg"
+                         class="playlist-thumbnail"
+                         alt="Thumbnail Aula 4">
+                    <div class="playlist-info">
+                        <h3 class="playlist-title">Aula 4: Administração Geral - Parte 4</h3>
+                        <span class="playlist-duration">--:--</span>
+                    </div>
+                </div>
+
+                <div class="playlist-item"
+                     data-video-id="ggiG-t99hxQ"
+                     data-title="Aula 5: Administração Geral - Parte 5"
+                     data-description="Conteúdo de Administração Geral - Parte 5"
+                     onclick="playVideo(this)">
+                    <img src="https://img.youtube.com/vi/ggiG-t99hxQ/0.jpg"
+                         class="playlist-thumbnail"
+                         alt="Thumbnail Aula 5">
+                    <div class="playlist-info">
+                        <h3 class="playlist-title">Aula 5: Administração Geral - Parte 5</h3>
+                        <span class="playlist-duration">--:--</span>
+                    </div>
+                </div>
+
+                <div class="playlist-item"
+                     data-video-id="oBvp9BeeUuk"
+                     data-title="Aula 6: Administração Geral - Parte 6"
+                     data-description="Conteúdo de Administração Geral - Parte 6"
+                     onclick="playVideo(this)">
+                    <img src="https://img.youtube.com/vi/oBvp9BeeUuk/0.jpg"
+                         class="playlist-thumbnail"
+                         alt="Thumbnail Aula 6">
+                    <div class="playlist-info">
+                        <h3 class="playlist-title">Aula 6: Administração Geral - Parte 6</h3>
+                        <span class="playlist-duration">--:--</span>
+                    </div>
+                </div>
+
+                <div class="playlist-item"
+                     data-video-id="18DgWe1GhOw"
+                     data-title="Aula 7: Administração Geral - Parte 7"
+                     data-description="Conteúdo de Administração Geral - Parte 7"
+                     onclick="playVideo(this)">
+                    <img src="https://img.youtube.com/vi/18DgWe1GhOw/0.jpg"
+                         class="playlist-thumbnail"
+                         alt="Thumbnail Aula 7">
+                    <div class="playlist-info">
+                        <h3 class="playlist-title">Aula 7: Administração Geral - Parte 7</h3>
+                        <span class="playlist-duration">--:--</span>
+                    </div>
+                </div>
+
+                <div class="playlist-item"
+                     data-video-id="18DgWe1GhOw"
+                     data-title="Aula 8: Administração Geral - Parte 8"
+                     data-description="Conteúdo de Administração Geral - Parte 8"
+                     onclick="playVideo(this)">
+                    <img src="https://img.youtube.com/vi/18DgWe1GhOw/0.jpg"
+                         class="playlist-thumbnail"
+                         alt="Thumbnail Aula 8">
+                    <div class="playlist-info">
+                        <h3 class="playlist-title">Aula 8: Administração Geral - Parte 8</h3>
+                        <span class="playlist-duration">--:--</span>
+                    </div>
+                </div>
+
+                <div class="playlist-item"
+                     data-video-id="gmOS6_yVEag"
+                     data-title="Aula 9: Administração Geral - Parte 9"
+                     data-description="Conteúdo de Administração Geral - Parte 9"
+                     onclick="playVideo(this)">
+                    <img src="https://img.youtube.com/vi/gmOS6_yVEag/0.jpg"
+                         class="playlist-thumbnail"
+                         alt="Thumbnail Aula 9">
+                    <div class="playlist-info">
+                        <h3 class="playlist-title">Aula 9: Administração Geral - Parte 9</h3>
+                        <span class="playlist-duration">--:--</span>
+                    </div>
+                </div>
+
+                <div class="playlist-item"
+                     data-video-id="mkWaQG2zqRI"
+                     data-title="Aula 10: Administração Geral - Parte 10"
+                     data-description="Conteúdo de Administração Geral - Parte 10"
+                     onclick="playVideo(this)">
+                    <img src="https://img.youtube.com/vi/mkWaQG2zqRI/0.jpg"
+                         class="playlist-thumbnail"
+                         alt="Thumbnail Aula 10">
+                    <div class="playlist-info">
+                        <h3 class="playlist-title">Aula 10: Administração Geral - Parte 10</h3>
+                        <span class="playlist-duration">--:--</span>
+                    </div>
+                </div>
+
+                <div class="playlist-item"
+                     data-video-id="On-ms8VNdl4"
+                     data-title="Aula 11: Administração Geral - Parte 11"
+                     data-description="Conteúdo de Administração Geral - Parte 11"
+                     onclick="playVideo(this)">
+                    <img src="https://img.youtube.com/vi/On-ms8VNdl4/0.jpg"
+                         class="playlist-thumbnail"
+                         alt="Thumbnail Aula 11">
+                    <div class="playlist-info">
+                        <h3 class="playlist-title">Aula 11: Administração Geral - Parte 11</h3>
+                        <span class="playlist-duration">--:--</span>
+                    </div>
+                </div>
+
+                <div class="playlist-item"
+                     data-video-id="wcZc1QGUwLE"
+                     data-title="Aula 12: Administração Geral - Parte 12"
+                     data-description="Conteúdo de Administração Geral - Parte 12"
+                     onclick="playVideo(this)">
+                    <img src="https://img.youtube.com/vi/wcZc1QGUwLE/0.jpg"
+                         class="playlist-thumbnail"
+                         alt="Thumbnail Aula 12">
+                    <div class="playlist-info">
+                        <h3 class="playlist-title">Aula 12: Administração Geral - Parte 12</h3>
+                        <span class="playlist-duration">--:--</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+<script src="Clips-ala-3.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos do Curso - IMPLS</title>
+    <link rel="shortcut icon" href="../img/Logo IMPLS.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="Clips-ala-1.css">
+</head>
+<body>
+    
+    <header>
+        <div class="logo">
+            <a href="../inicio.html"><img src="../img/Logo-IMPLS.png" alt="IMPLS"></a>
+            <a href="../inicio.html"><span class="logo-text">IMPLS</span></a>
+        </div>
+      <ul>
+        <li><a href="../inicio.html">Início</a></li>
+        <li><a href="../cursos.html">Cursos</a></li>
+        <li><a href="../disciplinas.html">Disciplinas</a></li>
+        <li><a href="../sonia.html">Sonia</a></li>
+        <li><a href="../sobre.html">Sobre</a></li>
+        <li><a href="../perfil.html">Perfil</a></li>
+      </ul>
+    </header>
+
+    <div class="video-page">
+        <div class="video-container">
+            <!-- Área Principal do Vídeo -->
+            <div class="main-video">
+                <div class="video-player">
+                    <iframe id="mainVideo" 
+                            width="100%" 
+                            height="500" 
+                            src="https://www.youtube.com/embed/JvaumlEAPnI" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen>
+                    </iframe>
+                </div>
+                <div class="video-info">
+                    <h1 class="video-title">Aula 1: Direito Administrativo - Parte 1</h1>
+                    <p class="video-description">Conteúdo de Direito Administrativo - Parte 1</p>
+                </div>
+            </div>
+
+            <!-- Playlist Lateral -->
+            <div class="playlist">
+                <h2 class="playlist-header">Playlist: Direito Administrativo</h2>
+
+                <!-- Lista de Vídeos Direito Administrativo -->
+                <div class="playlist-item active"
+                     data-video-id="JvaumlEAPnI"
+                     data-title="Aula 1: Direito Administrativo - Parte 1"
+                     data-description="Conteúdo de Direito Administrativo - Parte 1"
+                     onclick="playVideo(this)">
+                    <img src="https://img.youtube.com/vi/JvaumlEAPnI/0.jpg"
+                         class="playlist-thumbnail"
+                         alt="Thumbnail Aula 1">
+                    <div class="playlist-info">
+                        <h3 class="playlist-title">Aula 1: Direito Administrativo - Parte 1</h3>
+                        <span class="playlist-duration">--:--</span>
+                    </div>
+                </div>
+
+                <div class="playlist-item"
+                     data-video-id="qATMH3H1Oek"
+                     data-title="Aula 2: Direito Administrativo - Parte 2"
+                     data-description="Conteúdo de Direito Administrativo - Parte 2"
+                     onclick="playVideo(this)">
+                    <img src="https://img.youtube.com/vi/qATMH3H1Oek/0.jpg"
+                         class="playlist-thumbnail"
+                         alt="Thumbnail Aula 2">
+                    <div class="playlist-info">
+                        <h3 class="playlist-title">Aula 2: Direito Administrativo - Parte 2</h3>
+                        <span class="playlist-duration">--:--</span>
+                    </div>
+                </div>
+
+                <div class="playlist-item"
+                     data-video-id="s_tZqokO-NQ"
+                     data-title="Aula 3: Direito Administrativo - Parte 3"
+                     data-description="Conteúdo de Direito Administrativo - Parte 3"
+                     onclick="playVideo(this)">
+                    <img src="https://img.youtube.com/vi/s_tZqokO-NQ/0.jpg"
+                         class="playlist-thumbnail"
+                         alt="Thumbnail Aula 3">
+                    <div class="playlist-info">
+                        <h3 class="playlist-title">Aula 3: Direito Administrativo - Parte 3</h3>
+                        <span class="playlist-duration">--:--</span>
+                    </div>
+                </div>
+
+                <div class="playlist-item"
+                     data-video-id="iTv7BYGpcRg"
+                     data-title="Aula 4: Direito Administrativo - Parte 4"
+                     data-description="Conteúdo de Direito Administrativo - Parte 4"
+                     onclick="playVideo(this)">
+                    <img src="https://img.youtube.com/vi/iTv7BYGpcRg/0.jpg"
+                         class="playlist-thumbnail"
+                         alt="Thumbnail Aula 4">
+                    <div class="playlist-info">
+                        <h3 class="playlist-title">Aula 4: Direito Administrativo - Parte 4</h3>
+                        <span class="playlist-duration">--:--</span>
+                    </div>
+                </div>
+
+                <div class="playlist-item"
+                     data-video-id="w4ni5JEEzos"
+                     data-title="Aula 5: Direito Administrativo - Parte 5"
+                     data-description="Conteúdo de Direito Administrativo - Parte 5"
+                     onclick="playVideo(this)">
+                    <img src="https://img.youtube.com/vi/w4ni5JEEzos/0.jpg"
+                         class="playlist-thumbnail"
+                         alt="Thumbnail Aula 5">
+                    <div class="playlist-info">
+                        <h3 class="playlist-title">Aula 5: Direito Administrativo - Parte 5</h3>
+                        <span class="playlist-duration">--:--</span>
+                    </div>
+                </div>
+
+                <div class="playlist-item"
+                     data-video-id="rbFGCGr9who"
+                     data-title="Aula 6: Direito Administrativo - Parte 6"
+                     data-description="Conteúdo de Direito Administrativo - Parte 6"
+                     onclick="playVideo(this)">
+                    <img src="https://img.youtube.com/vi/rbFGCGr9who/0.jpg"
+                         class="playlist-thumbnail"
+                         alt="Thumbnail Aula 6">
+                    <div class="playlist-info">
+                        <h3 class="playlist-title">Aula 6: Direito Administrativo - Parte 6</h3>
+                        <span class="playlist-duration">--:--</span>
+                    </div>
+                </div>
+
+                <div class="playlist-item"
+                     data-video-id="s7EWBxTVpHw"
+                     data-title="Aula 7: Direito Administrativo - Parte 7"
+                     data-description="Conteúdo de Direito Administrativo - Parte 7"
+                     onclick="playVideo(this)">
+                    <img src="https://img.youtube.com/vi/s7EWBxTVpHw/0.jpg"
+                         class="playlist-thumbnail"
+                         alt="Thumbnail Aula 7">
+                    <div class="playlist-info">
+                        <h3 class="playlist-title">Aula 7: Direito Administrativo - Parte 7</h3>
+                        <span class="playlist-duration">--:--</span>
+                    </div>
+                </div>
+
+                <div class="playlist-item"
+                     data-video-id="rRrOkhcYu_8"
+                     data-title="Aula 8: Direito Administrativo - Parte 8"
+                     data-description="Conteúdo de Direito Administrativo - Parte 8"
+                     onclick="playVideo(this)">
+                    <img src="https://img.youtube.com/vi/rRrOkhcYu_8/0.jpg"
+                         class="playlist-thumbnail"
+                         alt="Thumbnail Aula 8">
+                    <div class="playlist-info">
+                        <h3 class="playlist-title">Aula 8: Direito Administrativo - Parte 8</h3>
+                        <span class="playlist-duration">--:--</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+<script src="Clips-ala-1.js"></script>
+
+</body>
+</html>

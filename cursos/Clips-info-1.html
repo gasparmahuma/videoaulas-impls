@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos do Curso - IMPLS</title>
+    <link rel="shortcut icon" href="../img/Logo IMPLS.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="Clips-info-1.css">
+</head>
+<body>
+    
+    <header>
+        <div class="logo">
+            <a href="../inicio.html"><img src="../img/Logo-IMPLS.png" alt="IMPLS"></a>
+            <a href="../inicio.html"><span class="logo-text">IMPLS</span></a>
+        </div>
+      <ul>
+        <li><a href="../inicio.html">Início</a></li>
+        <li><a href="../cursos.html">Cursos</a></li>
+        <li><a href="../disciplinas.html">Disciplinas</a></li>
+        <li><a href="../sonia.html">Sonia</a></li>
+        <li><a href="../sobre.html">Sobre</a></li>
+        <li><a href="../perfil.html">Perfil</a></li>
+      </ul>
+    </header>
+
+    <div class="video-page">
+        <div class="video-container">
+            <!-- Área Principal do Vídeo -->
+            <div class="main-video">
+                <div class="video-player">
+                    <iframe id="mainVideo" 
+                            width="100%" 
+                            height="500" 
+                            src="https://www.youtube.com/embed/VfIXgGJWLvA" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen>
+                    </iframe>
+                </div>
+                <div class="video-info">
+                    <h1 class="video-title">Aula 1: Introdução ao HTML & CSS</h1>
+                    <p class="video-description">Fundamentos básicos de HTML e CSS para iniciantes</p>
+                </div>
+            </div>
+
+            <!-- Playlist Lateral -->
+            <div class="playlist">
+                <h2 class="playlist-header">Playlist: HTML & CSS</h2>
+
+                <!-- Lista de Vídeos HTML & CSS -->
+                <div class="playlist-item"
+                     data-video-id=""
+                     data-title="Aula 1: HTML & CSS"
+                     data-description="Conteúdo a ser adicionado"
+                     onclick="playVideo(this)">
+                    <img src="https://youtu.be/Ejkb_YpuHWs?si=dZWZJBhG2dUCTNuf"
+                         class="playlist-thumbnail"
+                         alt="Thumbnail Aula 1">
+                    <div class="playlist-info">
+                        <h3 class="playlist-title">Aula 1: Oque é html & Css3</h3>
+                        <span class="playlist-duration">--:--</span>
+                    </div>
+                </div>
+
+                <div class="playlist-item"
+                     data-video-id=""
+                     data-title="Aula 2: HTML & CSS"
+                     data-description="Conteúdo a ser adicionado"
+                     onclick="playVideo(this)">
+                    <img src="https://youtu.be/jgQjeqGRdgA?si=cykJQ3J8p-zzZq2p"
+                         class="playlist-thumbnail"
+                         alt="Thumbnail Aula 2">
+                    <div class="playlist-info">
+                        <h3 class="playlist-title">Aula 2 : Aula Introdutoria</h3>
+                        <span class="playlist-duration">--:--</span>
+                    </div>
+                </div>
+
+                <div class="playlist-item active"
+                     data-video-id="VfIXgGJWLvA"
+                     data-title="Aula 3: Introdução ao HTML & CSS"
+                     data-description="Fundamentos básicos de HTML e CSS para iniciantes"
+                     onclick="playVideo(this)">
+                    <img src="https://img.youtube.com/vi/VfIXgGJWLvA/0.jpg"
+                         class="playlist-thumbnail"
+                         alt="Thumbnail Aula 3">
+                    <div class="playlist-info">
+                        <h3 class="playlist-title">Aula 3: Introdução HTML & CSS</h3>
+                        <span class="playlist-duration">--:--</span>
+                    </div>
+                </div>
+
+                <div class="playlist-item"
+                     data-video-id="57wyfS560Uk"
+                     data-title="Aula 4: Estrutura Básica HTML"
+                     data-description="Aprendendo a estrutura básica de um documento HTML"
+                     onclick="playVideo(this)">
+                    <img src="https://img.youtube.com/vi/57wyfS560Uk/0.jpg"
+                         class="playlist-thumbnail"
+                         alt="Thumbnail Aula 4">
+                    <div class="playlist-info">
+                        <h3 class="playlist-title">Aula 4: Estrutura HTML</h3>
+                        <span class="playlist-duration">--:--</span>
+                    </div>
+                </div>
+
+                <div class="playlist-item"
+                     data-video-id="0zLjVhHdOm8"
+                     data-title="Aula 5: Tags HTML Essenciais"
+                     data-description="Conhecendo as tags HTML mais importantes"
+                     onclick="playVideo(this)">
+                    <img src="https://img.youtube.com/vi/0zLjVhHdOm8/0.jpg"
+                         class="playlist-thumbnail"
+                         alt="Thumbnail Aula 5">
+                    <div class="playlist-info">
+                        <h3 class="playlist-title">Aula 5: Tags HTML</h3>
+                        <span class="playlist-duration">--:--</span>
+                    </div>
+                </div>
+
+                <div class="playlist-item"
+                     data-video-id="F74GKCLXUWM"
+                     data-title="Aula 6: Introdução ao CSS"
+                     data-description="Primeiros passos com folhas de estilo CSS"
+                     onclick="playVideo(this)">
+                    <img src="https://img.youtube.com/vi/F74GKCLXUWM/0.jpg"
+                         class="playlist-thumbnail"
+                         alt="Thumbnail Aula 6">
+                    <div class="playlist-info">
+                        <h3 class="playlist-title">Aula 6: Introdução ao CSS</h3>
+                        <span class="playlist-duration">--:--</span>
+                    </div>
+                </div>
+
+                <div class="playlist-item"
+                     data-video-id="nlO5hySqJFA"
+                     data-title="Aula 7: Seletores CSS"
+                     data-description="Aprendendo a usar seletores CSS"
+                     onclick="playVideo(this)">
+                    <img src="https://img.youtube.com/vi/nlO5hySqJFA/0.jpg"
+                         class="playlist-thumbnail"
+                         alt="Thumbnail Aula 7">
+                    <div class="playlist-info">
+                        <h3 class="playlist-title">Aula 7: Seletores CSS</h3>
+                        <span class="playlist-duration">--:--</span>
+                    </div>
+                </div>
+
+                <div class="playlist-item"
+                     data-video-id="RFHSt1PCy0k"
+                     data-title="Aula 8: Box Model CSS"
+                     data-description="Entendendo o modelo de caixa do CSS"
+                     onclick="playVideo(this)">
+                    <img src="https://img.youtube.com/vi/RFHSt1PCy0k/0.jpg"
+                         class="playlist-thumbnail"
+                         alt="Thumbnail Aula 8">
+                    <div class="playlist-info">
+                        <h3 class="playlist-title">Aula 8: Box Model</h3>
+                        <span class="playlist-duration">--:--</span>
+                    </div>
+                </div>
+
+                <div class="playlist-item"
+                     data-video-id="B4FU3NFRTDw"
+                     data-title="Aula 9: Layouts com CSS"
+                     data-description="Criando layouts modernos com CSS"
+                     onclick="playVideo(this)">
+                    <img src="https://img.youtube.com/vi/B4FU3NFRTDw/0.jpg"
+                         class="playlist-thumbnail"
+                         alt="Thumbnail Aula 9">
+                    <div class="playlist-info">
+                        <h3 class="playlist-title">Aula 9: Layouts CSS</h3>
+                        <span class="playlist-duration">--:--</span>
+                    </div>
+                </div>
+
+                <div class="playlist-item"
+                     data-video-id="iSqf2iPqJNM"
+                     data-title="Aula 10: Flexbox"
+                     data-description="Dominando o Flexbox para layouts flexíveis"
+                     onclick="playVideo(this)">
+                    <img src="https://img.youtube.com/vi/iSqf2iPqJNM/0.jpg"
+                         class="playlist-thumbnail"
+                         alt="Thumbnail Aula 10">
+                    <div class="playlist-info">
+                        <h3 class="playlist-title">Aula 10: Flexbox</h3>
+                        <span class="playlist-duration">--:--</span>
+                    </div>
+                </div>
+
+                <div class="playlist-item"
+                     data-video-id="UForX7ehChM"
+                     data-title="Aula 11: Grid Layout"
+                     data-description="Trabalhando com CSS Grid Layout"
+                     onclick="playVideo(this)">
+                    <img src="https://img.youtube.com/vi/UForX7ehChM/0.jpg"
+                         class="playlist-thumbnail"
+                         alt="Thumbnail Aula 11">
+                    <div class="playlist-info">
+                        <h3 class="playlist-title">Aula 11: Grid Layout</h3>
+                        <span class="playlist-duration">--:--</span>
+                    </div>
+                </div>
+
+                <div class="playlist-item"
+                     data-video-id="E6CdIawPTh0"
+                     data-title="Aula 12: Design Responsivo"
+                     data-description="Técnicas para criar designs responsivos"
+                     onclick="playVideo(this)">
+                    <img src="https://img.youtube.com/vi/E6CdIawPTh0/0.jpg"
+                         class="playlist-thumbnail"
+                         alt="Thumbnail Aula 12">
+                    <div class="playlist-info">
+                        <h3 class="playlist-title">Aula 12: Design Responsivo</h3>
+                        <span class="playlist-duration">--:--</span>
+                    </div>
+                </div>
+
+                <div class="playlist-item"
+                     data-video-id="f6NTJdtEFOc"
+                     data-title="Aula 13: Projeto Prático"
+                     data-description="Aplicando conhecimentos em um projeto real"
+                     onclick="playVideo(this)">
+                    <img src="https://img.youtube.com/vi/f6NTJdtEFOc/0.jpg"
+                         class="playlist-thumbnail"
+                         alt="Thumbnail Aula 13">
+                    <div class="playlist-info">
+                        <h3 class="playlist-title">Aula 13: Projeto Prático</h3>
+                        <span class="playlist-duration">--:--</span>
+                    </div>
+                </div>
+
+                <div class="playlist-item"
+                     data-video-id="nhMdFe3WwYc"
+                     data-title="Aula 14: Boas Práticas"
+                     data-description="Boas práticas em HTML e CSS"
+                     onclick="playVideo(this)">
+                    <img src="https://img.youtube.com/vi/nhMdFe3WwYc/0.jpg"
+                         class="playlist-thumbnail"
+                         alt="Thumbnail Aula 14">
+                    <div class="playlist-info">
+                        <h3 class="playlist-title">Aula 14: Boas Práticas</h3>
+                        <span class="playlist-duration">--:--</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+<script src="Clips-info-1.js"></script>
+
+</body>
+</html>
