@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+        /* Estilos Globais */
+        :root {
+            --primary: #2a2a72;
+            --secondary: #009ffd;
+            --accent: #ff7f50;
+            --text: #f8f9fa;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            min-height: 100vh;
+        }
+
+        /* Header Estilizado */
+       /* header {
+            padding: 1.5rem 5%;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        }*/
+
+        /* Cabeçalho */
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  header .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  header .logo img {
+    max-width: 40px; /* Tamanho reduzido */
+    height: auto;
+    cursor: pointer;
+  }
+  
+  .logo-text {
+    color: #fff;
+    font-size: 0.70em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+    cursor: pointer;
+  }
+  
+  /* Efeito hover no logo */
+  
+  
+  header .logo:hover .logo-text {
+    color: #45d438;
+    transition: color 0.3s ease;
+  }
+  
+
+  header .logo {
+    max-width: 60px;
+  }
+
+  header ul {
+    display: flex;
+  }
+
+  header ul li {
+    list-style: none;
+  }
+  
+  header ul li a {
+    display: inline-block;
+    color: #fff;
+    font-weight: 400;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 0.9em;
+  }
+     
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo a {
+            color: var(--text);
+            text-decoration: none;
+            font-size: 2rem;
+            font-weight: 700;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        nav ul {
+            display: flex;
+            gap: 2rem;
+        }
+
+        nav a {
+            color: var(--text);
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            padding: 0.5rem 1rem;
+            border-radius: 50px;
+        }
+
+        nav a.active {
+            background: rgba(255, 255, 255, 0.15);
+        }
+
+        /* Conteúdo Principal */
+        .about-container {
+            margin-top: 120px;
+            padding: 4rem 5%;
+            color: var(--text);
+        }
+
+        .hero-section {
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto 4rem;
+        }
+
+        .hero-section h1 {
+            font-size: 3rem;
+            margin-bottom: 1.5rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .hero-section p {
+            font-size: 1.1rem;
+            line-height: 1;
+        }
+
+        /* Grid de Membros */
+        .team-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+
+        .member-card {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 15px;
+            padding: 2rem;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .member-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .member-image {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            margin: 0 auto 1rem;
+            border: 3px solid var(--accent);
+            object-fit: cover;
+        }
+
+        .member-role {
+            color: var(--accent);
+            font-weight: 600;
+            margin: 0.5rem 0;
+        }
+
+        .ai-section {
+            background: rgba(0, 0, 0, 0.2);
+            padding: 2rem;
+            border-radius: 15px;
+            margin-top: 4rem;
+            text-align: center;
+        }
+
+        .ai-icon {
+            font-size: 3rem;
+            color: var(--accent);
+            margin-bottom: 1rem;
+        }
+
+        /* Responsividade */
+        @media (max-width: 768px) {
+            .hero-section h1 {
+                font-size: 2rem;
+            }
+
+            .team-grid {
+                grid-template-columns: 1fr;
+            }
+        }

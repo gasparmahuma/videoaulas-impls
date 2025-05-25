@@ -1,0 +1,291 @@
+:root {
+    --primary-color: #0062be;
+    --secondary-color: #003a6e;
+    --accent-color: #45d438;
+    --light-bg: #f8f9fa;
+    --text-dark: #2d3436;
+    --text-light: #ffffff;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  body {
+    background-color: var(--light-bg);
+    color: var(--text-dark);
+  }
+
+/*--------------------- Header rodape ------------------------ */
+header {
+    background-color: var(--primary-color);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header .logo {
+    max-width: 60px;
+  }
+  header ul {
+    display: flex;
+  }
+  header ul li {
+    list-style: none;
+  }
+  header ul li a {
+    display: inline-block;
+    color: #fff;
+    font-weight: 400;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 0.9em;
+  }
+
+/* Ajustes do Logo */
+header .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  header .logo img {
+    max-width: 40px; /* Tamanho reduzido */
+    height: auto;
+    cursor: pointer;
+  }
+  
+  .logo-text {
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+    cursor: pointer;
+  }
+  
+  header .logo:hover .logo-text {
+    color: #45d438;
+    transition: color 0.3s ease;
+  }
+
+/*---------------- Header rodape ---------------*/
+
+  .nav-links {
+    display: flex;
+    gap: 2rem;
+  }
+
+  .nav-links a {
+    color: var(--text-light);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+
+  .nav-links a:hover {
+    color: var(--accent-color);
+  }
+
+  /* Disciplinas Section */
+  .disciplinas-section {
+    padding: 6rem 5% 3rem;
+  }
+
+  .section-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    color: var(--secondary-color);
+    position: relative;
+  }
+
+  .section-title::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 3px;
+    background: var(--primary-color);
+  }
+
+  .disciplinas-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin: 2rem 0;
+  }
+
+  .disciplina-card {
+    background: white;
+    border-radius: 15px;
+    padding: 1.5rem;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .disciplina-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  }
+
+  .disciplina-icon {
+    font-size: 3rem;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+    transition: color 0.3s;
+  }
+
+  .disciplina-card:hover .disciplina-icon {
+    color: var(--accent-color);
+  }
+
+  .disciplina-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--text-dark);
+    margin-bottom: 0.5rem;
+  }
+
+  .disciplina-desc {
+    font-size: 0.9rem;
+    color: #666;
+    line-height: 1.5;
+  }
+
+  /* Slider Improvements */
+  .slider-container {
+    position: relative;
+    height: 70vh;
+    margin-top: 80px;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+
+  .slider-thumbnails {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 1rem;
+    z-index: 10;
+  }
+
+  .thumbnail-item {
+    width: 40px;
+    height: 40px;
+    background: rgba(255,255,255,0.3);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+
+  .thumbnail-item:hover {
+    background: rgba(255,255,255,0.5);
+  }
+
+  .thumbnail-item i {
+    color: white;
+    font-size: 1.2rem;
+  }
+
+  /* Video Section */
+  .video-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    padding: 2rem 5%;
+  }
+
+  .video-card {
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+  }
+
+  .video-card:hover {
+    transform: translateY(-5px);
+  }
+
+  .video-thumbnail {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .video-info {
+    padding: 1rem;
+  }
+
+  .video-title {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+    color: var(--secondary-color);
+  }
+
+  /* Footer Styles */
+  footer {
+    background: var(--secondary-color);
+    color: white;
+    padding: 3rem 5%;
+    margin-top: 5rem;
+  }
+
+  .footer-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+  }
+
+  .footer-section h3 {
+    margin-bottom: 1rem;
+    color: var(--accent-color);
+  }
+
+  .footer-section ul {
+    list-style: none;
+  }
+
+  .footer-section ul li {
+    margin-bottom: 0.5rem;
+  }
+
+  .footer-section a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+
+  .footer-section a:hover {
+    color: var(--accent-color);
+  }
+
+  .copyright {
+    text-align: center;
+    margin-top: 2rem;
+    padding-top: 2rem;
+    border-top: 1px solid rgba(255,255,255,0.1);
+  }

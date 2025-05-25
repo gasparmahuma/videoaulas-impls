@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #0062be 0%, #0062be 100%);
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Header Styles */
+header {
+    background-color: var(--primary-color);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header .logo {
+    max-width: 60px;
+  }
+  header ul {
+    display: flex;
+  }
+  header ul li {
+    list-style: none;
+  }
+  header ul li a {
+    display: inline-block;
+    color: #fff;
+    font-weight: 400;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 0.9em;
+  }
+
+/* Ajustes do Logo */
+header .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  header .logo img {
+    max-width: 40px; /* Tamanho reduzido */
+    height: auto;
+    cursor: pointer;
+  }
+  
+  .logo-text {
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+    cursor: pointer;
+  }
+  
+  header .logo:hover .logo-text {
+    color: #45d438;
+    transition: color 0.3s ease;
+  }
+
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 2rem;
+  }
+
+  .nav-links a {
+    color: var(--text-light);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+
+  .nav-links a:hover {
+    color: var(--accent-color);
+  }
+
+
+.container {
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 40px;
+    width: 100%;
+    max-width: 450px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.logo {
+    width: 80px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+p {
+    margin-bottom: 30px;
+    opacity: 0.9;
+    line-height: 1.5;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+
+input {
+    width: 100%;
+    padding: 12px 15px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+input:focus {
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.4);
+}
+
+input::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+button {
+    width: 100%;
+    padding: 14px;
+    border-radius: 8px;
+    border: none;
+    background-color: white;
+    color: #1e3c72;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #45d438;
+    transform: translateY(-2px);
+}
+
+button:hover {
+    background-color: #45d438;
+    color: white;
+}
+
+.login-link {
+    margin-top: 25px;
+    display: block;
+    color: white;
+    opacity: 0.8;
+}
+
+.login-link a {
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    border-bottom: 1px dashed rgba(255, 255, 255, 0.5);
+}
+
+.login-link a:hover {
+    opacity: 1;
+    border-bottom-color: white;
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 30px 20px;
+    }
+    
+    h1 {
+        font-size: 20px;
+    }
+}
+
+.styled-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: white;
+  color: #0062be;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+  border: none;
+  cursor: pointer;
+}
+
+.styled-button:hover {
+  background-color: #45d438;
+}
+
+.styled-button:hover {
+  color: #45d438;
+  color: white;
+  transition: color 0.3s ease;
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videoaulas IMPLS | Sonia</title>
+    <!-- Linkis do google onde retiramos a fonte e os icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0"/>
+    <link rel="stylesheet" href="sonia.css">
+</head>
+<body>
+
+    <!--Início do codigo com header que é a cabeçalho da pagina -->
+    <header class="header">
+        <!-- Header Greetings -->
+        <h2 class="title">Olá, caro estudante</h2>
+        <h4 class="subtitle">Como posso ajudar você hoje?</h4>
+        
+        <!--Lista de Sugestão da pagina inicial da Sónia
+        As questões a baixo são as que se encontram na pagina inícial -->
+        <ul class="suggestion-list">
+            <li class="suggestion">
+                <h4 class="text">Como a tecnologia da informação está mudando
+                    as empresas e quais são as competências
+                    mais valorizadas no mercado para profissionais de
+                    informática?</h4>
+                <span class="icon material-symbols-rounded">computer</span>
+            </li>
+            <li class="suggestion">
+                <h4 class="text">Como as práticas contábeis e de gestão podem
+                    ser aplicadas para melhorar a saúde financeira de
+                    pequenas e médias empresas?</h4>
+                <span class="icon material-symbols-rounded">account_balance</span>
+            </li>
+            <li class="suggestion">
+                <h4 class="text">Quais são as principais inovações tecnológicas no
+                    setor de energia e instalações elétricas, e como elas
+                    impactam a sustentabilidade e a eficiência energética?</h4>
+                <span class="icon material-symbols-rounded">bolt</span>
+            </li>
+        </ul>
+        <ul class="suggestion-list">
+            <li class="suggestion">
+                <h4 class="text">Quais são as principais fases de um projeto de
+                    construção civil e como o planejamento adequado
+                    pode influenciar o sucesso da obra?</h4>
+                <span class="icon material-symbols-rounded">home_work</span>
+            </li>
+            <li class="suggestion">
+                <h4 class="text">Como a manutenção preventiva e preditiva pode
+                    reduzir custos e aumentar a vida útil de equipamentos
+                    industriais?</h4>
+                <span class="icon material-symbols-rounded">engineering</span>
+            </li>
+            <li class="suggestion">
+                <h4 class="text">Qual é o papel das autarquias na administração
+                    pública e como elas contribuem para a gestão
+                    eficiente dos serviços e recursos públicos?</h4>
+                <span class="icon material-symbols-rounded">gavel</span>
+            </li>
+        </ul>
+    </header>
+
+    <!-- Chat List / Container -->
+    <div class="chat-list">
+    </div>
+
+    <!--Barra de escrituras ou ÁREA DE DIGITAÇÃO e FORMULÁRIO DE DIGITAÇÃO
+        dentro do imput tem um requerimrnto obrigatorio que se o usúario não escrever
+        o send que é o icon de ceta não aparece pra o texto ser enviado --->
+    <div class="typing-area">
+        <form action="#" class="typing-form">
+            <!--entrada de conteudo-->
+            <div class="input-wrapper">
+                <!--expecificado á cima -->
+                <input type="text" placeholder="Escreva Aqui..."
+                class="typing-input" required>
+                <button class="icon material-symbols-rounded">send</button>
+            </div>
+            <!--A baixo encontramos os botões de ação que apagam a coversa com a SónIA e que muda o 
+                    modo da cor do saite entre preto ou branco -->
+            <div class="action-buttons">
+                <span id="toggle-theme-button" class="icon 
+                material-symbols-rounded">light_mode</span>
+                <span id="delete-chat-button" class="icon 
+                material-symbols-rounded">delete</span>
+            </div>
+            <!-- esse e o texto de insenção de responsabilidade 
+                que tem como aviso sobre alguns erros da IA-->
+        </form>
+        <p class="disclaimer-text">
+            A Sónia pode cometer erros de informação, recomendamos a revisão dos resultados.
+        </p>
+    </div>
+
+    <!-- Dentro da mensagem .message-content -->
+<div class="text-content">
+    <p class="text"></p>
+  </div>
+
+    <script src="sonia.js"></script>
+   <!-- <script src="script.js"></script> -->
+    <!--<script src="data.js"></script>-->
+</body>
+</html>
